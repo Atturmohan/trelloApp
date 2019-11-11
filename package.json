@@ -1,0 +1,25 @@
+{
+  "name": "trelloApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atturmohan/trelloApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atturmohan/trelloApp/issues"
+  },
+  "homepage": "https://github.com/Atturmohan/trelloApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.11.1"
+  }
+}
