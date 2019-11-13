@@ -5,93 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
-    <style>
-        .primary_nav{
-            height: 50px;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            background-color: blue;
-        }
-
-        .secondary_nav{
-            height: 50px;
-            position: fixed;
-            top: 50px;
-            left: 0px;
-            right: 0px;
-            background-color:cadetblue;
-        }
-        .board{
-            display: flex;
-        }
-
-        .tasklist{
-            flex-shrink: 0;
-            background-color: lightgray;
-            width: 180px;
-            margin-top: 120px;
-            margin-right: 10px;
-            padding-left: 10px;
-            padding-top: 15px;
-            padding-bottom: 10px;
-        }
-
-        .page .secondary_nav .training{
-            position: fixed;
-            left: 20px;
-            margin-top: 15px;
-
-        }
-        .page .secondary_nav .menu{
-            position: fixed;
-            right:20px;
-            margin-top: 10px;
-        }
-
-        .tasklist_heading{
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 10px;
-            padding-right: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="dashboardstyle.css">
+    
 </head>
-<body>
+<body background="background.jpg">
         <div class="page">
-            <nav class="primary_nav"></nav>
-            <nav class="secondary_nav">
-                <div class="training">Frontend Training</div>
-                <div class="menu"> Show menu</div>
+            <nav class="navbar">
+                    <ul class="menu">
+                            <li class="pointer">
+                                <i class="home fas fa-home">
+                                    HOME
+                                </i>
+                            </li>
+                            <li class="pointer">
+                                <i class="boards fas fa-th-list"></i>
+                                Boards
+                            </li>
+                            <li class="menu-input">
+                                <input type="text">
+                            </li>
+                        </ul>
+                        <div class="app-title">
+                            Tralala
+                        </div>
+                        <div class="actions">
+                            <span class="pointer">
+                                <i class="fas fa-plus" id="add-board">
+                                    PLUS
+                                </i>
+                            </span>
+                            <span class="pointer">
+                                <i class="fas fa-user" id="profile-image">
+                                    profile_image
+                                </i>
+                            </span>
+                        </div>
             </nav>
+            <div>
+             
+            <div class= "second-screen">  
+                <nav class="secondary_nav">
+                    <div class="training">Frontend Training</div>
+                    <div class="menu"> Show menu</div>
+                </nav>
+            </div>
+
             <div class="board">
                 <div class="tasklist">
                     <div class ="tasklist_heading">
                     <div class="task_heading">To Do</div>
                     <div class="task_bar">...</div>
                     </div>
+
                     <div><textarea>Learn HTML</textarea></div>
                     <div><textarea>Learn CSS</textarea></div>
                     <div><textarea>Learn JavaScript</textarea></div>
                     <div>+Add another card</div>
                 </div>
+               
+
                 <div class="tasklist">
                         <div class ="tasklist_heading">
                             <div class="task_heading">Doing</div>
                             <div class="task_bar">...</div>
-                            </div>
+                        </div>
                             <div><textarea>Prepare Resume</textarea></div>
                             <div><textarea rows="3">Enter a title for this card</textarea></div>
-                       </div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
-                <div class="tasklist"></div>
+                            <div>+Add another card</div>
+                 </div>
+                <div class="tasklist">
+
+                        <div class ="tasklist_heading">
+                            <div class="task_heading">Testing/Verifying</div>
+                            <div class="task_bar">...</div>
+                        </div>
+                            <div><textarea>Twitter app frontend </textarea></div>
+                            <div>+Add another card</div>
+                </div>
+
+                <div class="tasklist">
+                        <div class ="tasklist_heading">
+                                <div class="task_heading">Deploying</div>
+                                <div class="task_bar">...</div>
+                        </div>
+                                <div><textarea>Twitter app frontend  </textarea></div>
+                                <div>+Add another card</div>
+                </div>
+                <div class="tasklist">
+                        <div class ="tasklist_heading">
+                                <div class="task_heading">Deploying</div>
+                                <div class="task_bar">...</div>
+                        </div>
+                                <div><textarea>Twitter app frontend  </textarea></div>
+                                <div>+Add another card</div>
+                </div>
+                <div class="tasklist">
+                        <div class ="tasklist_heading">
+                                <div class="task_heading">Deploying</div>
+                                <div class="task_bar">...</div>
+                        </div>
+                                <div><textarea>Twitter app frontend  </textarea></div>
+                                <div>+Add another card</div>
+                </div>
+                <div class="tasklist">
+                        <div class ="tasklist_heading">
+                                <div class="task_heading">Done</div>
+                                <div class="task_bar">...</div>
+                        </div>
+                        <div>+Add card</div>
+                </div>
+                <div class="tasklist">
+                        <div>+Add Another list</div>
+                </div>
+
             </div>
         </div>
 </body>
