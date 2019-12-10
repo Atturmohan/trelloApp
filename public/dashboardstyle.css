@@ -112,14 +112,12 @@ ol, ul {
 .tasklist{
     flex-shrink: 0;
     background-color: rgba( 240, 240, 240, 0.9 );
-    width: 180px;
     margin-top: 120px;
     margin-right: 10px;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    height: fit-content;
+    height: max-content;
+    border-radius: 5px;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 .page .secondary_nav .training{
@@ -134,12 +132,10 @@ ol, ul {
     margin-top: 10px;
 }
 
-.tasklist_heading{
+.tasklist-header{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
-    padding-right: 10px;
 }
-.task_heading{
-    font-weight: bold;
+.task_bar{
+
 }
